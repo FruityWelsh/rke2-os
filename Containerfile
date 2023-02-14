@@ -1,7 +1,7 @@
 # Multi-stage build
 
 ## Build ublue-os-base
-FROM quay.io/fedora/coreos:stable
+FROM quay.io/fedora/fedora-coreos:stable
 
 COPY etc /etc
 
